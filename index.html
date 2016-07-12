@@ -1,15 +1,140 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" href="css/main.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="scripts/jquery1.js"></script>
+</head>
+<body>
+
+<div class="div1 class1 title-mail">My Files</div>
+
+  <div class="1 files-content">
+      <ul class="files-nav">
+        <li><a href="#"><span>Drop Box</span><span class="number">23</span></a></li>
+        <li><a href="#"><span>Sky Drive</span><span class="number">56</span></a></li>
+        <li><a href="#"><span>FTP Server</span><span class="number">1</span></a></li>
+        <li><a href="#"><span>Drop Box</span><span class="number">10</span></a></li>
+        <li><a href="#"><span>Sky Drive</span><span class="number">34</span></a></li>
+      </ul>
+  </div>
+
+<div class="div2 class1 title-mail">Mail</div>
+
+<div class="2 mail-content">
+  <ul class="mail-nav">
+    <li><a href="#"><span>Inbox</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Sent</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Drafts</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Spam</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Trash</span><span class="number">23</span></a></li>
+  </ul>
+</div>
+
+<div class="div3 class1 title-cloud">Cloud</div>
+
+<div class="3 cloud-content">
+  <ul class="cloud-nav">
+    <li><a href="#"><span>Connect</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Profiles</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Options</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Connect</span><span class="number">23</span></a></li>
+    <li><a href="#"><span>Options</span><span class="number">23</span></a></li>
+  </ul>
+</div>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
   <head>
     <meta charset="utf-8">
     <script src="scripts/jquery1.js"></script>
     <link rel="stylesheet" href="css/main.css" />
     <title>Intro to JQuery</title>
+    <script>
+      $(document).ready(function(){
+          $("class1").click(function(){
+              $(".this").toggleClass("main");
+          });
+      });
+      </script>
+      <style>
+      .main {
+          font-size: 120%;
+          color: red;
+      }
+  </style>
   </head>
   <body>
 
-    <h1>hello</h1>
+    <div class="container">
+
+      <div class="files-container">
+        <a href="#">
+          <div class="class1 title-files" onclick="toggleClass(this)">
+            <span class="class1">My Files</span>
+          </div>
+        </a>
+        <div class="files-content">
+            <ul class="files-nav">
+              <li class="this"><a href="#"><span>Drop Box</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Sky Drive</span><span class="number">56</span></a></li>
+              <li><a href="#"><span>FTP Server</span><span class="number">1</span></a></li>
+              <li><a href="#"><span>Drop Box</span><span class="number">10</span></a></li>
+              <li><a href="#"><span>Sky Drive</span><span class="number">34</span></a></li>
+            </ul>
+        </div>
+        </div>
+
+
+
+          <div class="mail-container">
+            <a href="#">
+            <div class="class1 title-mail" onclick="toggleClass(this)">
+              <span>Mail</span>
+          </div>
+          </a>
+          <div class="mail-content">
+            <ul class="mail-nav">
+              <li><a href="#"><span>Inbox</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Sent</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Drafts</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Spam</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Trash</span><span class="number">23</span></a></li>
+            </ul>
+          </div>
+          </div>
+
+
+          <div class="cloud-container">
+            <a href="#">
+            <div class="class1 title-cloud" onclick="toggleClass(this)">
+              <span>Cloud</span>
+          </div>
+          </a>
+          <div class="cloud-content">
+            <ul class="cloud-nav">
+              <li><a href="#"><span>Connect</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Profiles</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Options</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Connect</span><span class="number">23</span></a></li>
+              <li><a href="#"><span>Options</span><span class="number">23</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+
+    </div>
+
+
+
 
     <script src="scripts/main.js"></script>
   </body>
-</html>
+</html> -->
